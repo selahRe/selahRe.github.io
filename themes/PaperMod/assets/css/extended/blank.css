@@ -1,0 +1,44 @@
+/*
+This is just a placeholder blank stylesheet so as to support adding custom styles budled with theme's default styles
+
+Read https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#bundling-custom-css-with-themes-assets for more info
+*/
+@font-face {
+    font-family: 'EnFont';
+    src: url('/fonts/EnFont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+.post-content pre,
+code {
+  font-family: 'EnFont', monospace;
+  font-size: 23px;
+}
+@font-face {
+    font-family: 'ChFont';
+    src: url('/fonts/fangzheng.TTF') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'ChFontTitle';
+    src: url('/fonts/ChFont0.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'font';
+    src: url('/fonts/font.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  /* 为中文标题应用自定义字体 */
+  h1, h2{
+    font-family: 'ChFontTitle', sans-serif; /* 设置标题字体 */
+  }
+  h3, h4, h5, h6{
+    font-family: 'ChFont', sans-serif; /* 设置标题字体 */
+  }
+  body {
+    font-family: "font", sans-serif;
+  }
