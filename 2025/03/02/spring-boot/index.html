@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+
+  
+  <title>Spring Boot Web 框架详解 | Hexo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="1. 为什么要使用 Spring Web？Spring Web 是 Spring 框架中的一个模块，用于简化 Web 应用开发，特别是 REST API 和 MVC（Model-View-Controller）架构。使用 Spring Web 的主要原因有：">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Spring Boot Web 框架详解">
+<meta property="og:url" content="http://example.com/2025/03/02/spring-boot/index.html">
+<meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="1. 为什么要使用 Spring Web？Spring Web 是 Spring 框架中的一个模块，用于简化 Web 应用开发，特别是 REST API 和 MVC（Model-View-Controller）架构。使用 Spring Web 的主要原因有：">
+<meta property="og:locale" content="en_US">
+<meta property="article:published_time" content="2025-03-01T16:00:00.000Z">
+<meta property="article:modified_time" content="2025-03-02T09:51:16.366Z">
+<meta property="article:author" content="John Doe">
+<meta property="article:tag" content="Spring Boot">
+<meta property="article:tag" content="Spring Web">
+<meta property="article:tag" content="Web开发">
+<meta property="article:tag" content="REST API">
+<meta name="twitter:card" content="summary">
+  
+    <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/favicon.png">
+  
+  
+    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  
+  
+<link rel="stylesheet" href="/css/style.css">
+
+<meta name="generator" content="Hexo 5.4.2"></head>
+
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="logo">Hexo</a>
+      </h1>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"></a>
+        
+          <a class="main-nav-link" href="/">Home</a>
+        
+          <a class="main-nav-link" href="/archives">Archives</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
+        
+        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://example.com"></form>
+      </div>
+    </div>
+  </div>
+</header>
+      <div class="outer">
+        <section id="main"><article id="post-spring-boot" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2025/03/02/spring-boot/" class="article-date">
+  <time datetime="2025-03-01T16:00:00.000Z" itemprop="datePublished">2025-03-02</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/Spring-Boot/">Spring Boot</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      Spring Boot Web 框架详解
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h2 id="1-为什么要使用-Spring-Web？"><a href="#1-为什么要使用-Spring-Web？" class="headerlink" title="1. 为什么要使用 Spring Web？"></a>1. 为什么要使用 Spring Web？</h2><p>Spring Web 是 <strong>Spring 框架中的一个模块</strong>，用于简化 <strong>Web 应用开发</strong>，特别是 <strong>REST API 和 MVC</strong>（Model-View-Controller）架构。使用 Spring Web 的主要原因有：</p>
+<span id="more"></span>
+<p>✅ <strong>简化 Web 开发</strong>  </p>
+<ul>
+<li>只需要少量配置，就能快速搭建 Web 应用或 RESTful API。</li>
+<li>通过注解（如 <code>@RestController</code>、<code>@RequestMapping</code>）来定义 API，而不需要手写大量的 Servlet 代码。</li>
+</ul>
+<p>✅ <strong>内置服务器，开箱即用</strong>  </p>
+<ul>
+<li>Spring Boot 提供了 <strong>内嵌 Tomcat、Jetty 或 Undertow</strong>，不需要额外安装服务器。</li>
+<li>直接运行 Spring Boot 应用，就能启动 Web 服务。</li>
+</ul>
+<p>✅ <strong>强大的 REST 支持</strong>  </p>
+<ul>
+<li>轻松创建 RESTful API，支持 JSON&#x2F;XML 数据格式返回。</li>
+<li>内置 <code>RestTemplate</code> 和 <code>WebClient</code>，方便调用外部 API。</li>
+</ul>
+<p>✅ <strong>与 Spring 生态系统无缝集成</strong>  </p>
+<ul>
+<li>可以轻松结合 <strong>Spring Security（身份验证和授权）</strong>、<strong>Spring Data（数据库访问）</strong> 和 <strong>Spring Cloud（微服务架构）</strong>。</li>
+<li>支持与前端框架（如 React、Vue.js）结合，构建前后端分离的应用。</li>
+</ul>
+<p>✅ <strong>强大的异常处理和拦截器机制</strong>  </p>
+<ul>
+<li>通过 <code>@ExceptionHandler</code> 统一处理异常，增强 API 可靠性。</li>
+<li>可以使用 <strong>拦截器（Interceptor）</strong> 处理请求，例如权限验证、日志记录等。</li>
+</ul>
+<hr>
+<h2 id="2-什么时候会使用-Spring-Web？"><a href="#2-什么时候会使用-Spring-Web？" class="headerlink" title="2. 什么时候会使用 Spring Web？"></a>2. 什么时候会使用 Spring Web？</h2><p>Spring Web 适用于：</p>
+<ol>
+<li><p><strong>开发 RESTful API</strong>：  </p>
+<ul>
+<li>例如构建一个后端服务，提供 JSON 数据给前端（Vue、React）。</li>
+<li>适用于移动端（iOS&#x2F;Android）或前后端分离的 Web 项目。</li>
+</ul>
+</li>
+<li><p><strong>传统 MVC 模式的 Web 应用</strong>：  </p>
+<ul>
+<li>适用于小型到中型项目，直接用 Spring Web + Thymeleaf 渲染页面。</li>
+</ul>
+</li>
+<li><p><strong>微服务架构</strong>：  </p>
+<ul>
+<li>在 Spring Cloud 中，Spring Web 常用于构建微服务，提供 HTTP API。</li>
+</ul>
+</li>
+<li><p><strong>处理 HTTP 请求，如爬虫、Webhook 监听</strong>：</p>
+<ul>
+<li>例如监听 GitHub Webhook 事件，自动触发 CI&#x2F;CD 流程。</li>
+</ul>
+</li>
+</ol>
+<hr>
+<h2 id="3-怎么使用-Spring-Web？"><a href="#3-怎么使用-Spring-Web？" class="headerlink" title="3. 怎么使用 Spring Web？"></a>3. 怎么使用 Spring Web？</h2><h3 id="（1）引入-Spring-Web-依赖"><a href="#（1）引入-Spring-Web-依赖" class="headerlink" title="（1）引入 Spring Web 依赖"></a>（1）引入 Spring Web 依赖</h3><p><strong>Maven</strong>，在 pom.xml 添加：</p>
+<figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">dependency</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">groupId</span>&gt;</span>org.springframework.boot<span class="tag">&lt;/<span class="name">groupId</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">artifactId</span>&gt;</span>spring-boot-starter-web<span class="tag">&lt;/<span class="name">artifactId</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">dependency</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<h3 id="（2）创建-Spring-Boot-主类"><a href="#（2）创建-Spring-Boot-主类" class="headerlink" title="（2）创建 Spring Boot 主类"></a>（2）创建 Spring Boot 主类</h3><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> org.springframework.boot.SpringApplication;</span><br><span class="line"><span class="keyword">import</span> org.springframework.boot.autoconfigure.SpringBootApplication;</span><br><span class="line"><span class="meta">@SpringBootApplication</span></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">WebApplication</span> &#123;</span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title function_">main</span><span class="params">(String[] args)</span> &#123;</span><br><span class="line">        SpringApplication.run(WebApplication.class, args);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<ul>
+<li>@SpringBootApplication：Spring Boot 启动类，自动扫描组件并启动应用。</li>
+</ul>
+<h3 id="（3）创建-REST-API-控制器"><a href="#（3）创建-REST-API-控制器" class="headerlink" title="（3）创建 REST API 控制器"></a>（3）创建 REST API 控制器</h3><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> org.springframework.web.bind.annotation.*;</span><br><span class="line"></span><br><span class="line"><span class="meta">@RestController</span></span><br><span class="line"><span class="meta">@RequestMapping(&quot;/api&quot;)</span></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">HelloController</span> &#123;</span><br><span class="line"></span><br><span class="line">    <span class="meta">@GetMapping(&quot;/hello&quot;)</span></span><br><span class="line">    <span class="keyword">public</span> String <span class="title function_">sayHello</span><span class="params">()</span> &#123;</span><br><span class="line">        <span class="keyword">return</span> <span class="string">&quot;Hello, Spring Boot!&quot;</span>;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="meta">@GetMapping(&quot;/greet/&#123;name&#125;&quot;)</span></span><br><span class="line">    <span class="keyword">public</span> String <span class="title function_">greetUser</span><span class="params">(<span class="meta">@PathVariable</span> String name)</span> &#123;</span><br><span class="line">        <span class="keyword">return</span> <span class="string">&quot;Hello, &quot;</span> + name + <span class="string">&quot;!&quot;</span>;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>📌 <strong>解释：</strong></p>
+<ul>
+<li><pre><code>@RestController：标识这是一个 REST API 控制器。
+</code></pre>
+</li>
+<li>   @RequestMapping(“&#x2F;api”)：设置 API 访问的基础路径 &#x2F;api。</li>
+<li>   @GetMapping(“&#x2F;hello”)：定义 GET 请求，访问 <a target="_blank" rel="noopener" href="http://localhost:8080/api/hello">http://localhost:8080/api/hello</a> 时返回 “Hello, Spring Boot!”。</li>
+<li>   @PathVariable：获取 URL 参数，例如访问 <a target="_blank" rel="noopener" href="http://localhost:8080/api/greet/Alice%EF%BC%8C%E4%BC%9A%E8%BF%94%E5%9B%9E">http://localhost:8080/api/greet/Alice，会返回</a> “Hello, Alice!”。</li>
+</ul>
+<h3 id="（4）运行-Spring-Boot-应用"><a href="#（4）运行-Spring-Boot-应用" class="headerlink" title="（4）运行 Spring Boot 应用"></a>（4）运行 Spring Boot 应用</h3><p>在终端运行：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">mvn spring-boot:run  <span class="comment"># 使用 Maven 启动</span></span><br><span class="line"><span class="comment"># 或者</span></span><br><span class="line">gradle bootRun       <span class="comment"># 使用 Gradle 启动</span></span><br></pre></td></tr></table></figure>
+<p>然后打开浏览器访问：<br><a target="_blank" rel="noopener" href="http://localhost:8080/api/hello">http://localhost:8080/api/hello</a><br>返回：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Hello, Spring Boot!</span><br></pre></td></tr></table></figure>
+
+<hr>
+<h3 id="（5）处理-POST-请求"><a href="#（5）处理-POST-请求" class="headerlink" title="（5）处理 POST 请求"></a>（5）处理 POST 请求</h3><p>如果你要处理 POST 请求，可以这样做：</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> org.springframework.web.bind.annotation.*;</span><br><span class="line"></span><br><span class="line"><span class="meta">@RestController</span></span><br><span class="line"><span class="meta">@RequestMapping(&quot;/api&quot;)</span></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">UserController</span> &#123;</span><br><span class="line"></span><br><span class="line">    <span class="meta">@PostMapping(&quot;/user&quot;)</span></span><br><span class="line">    <span class="keyword">public</span> String <span class="title function_">createUser</span><span class="params">(<span class="meta">@RequestBody</span> User user)</span> &#123;</span><br><span class="line">        <span class="keyword">return</span> <span class="string">&quot;User created: &quot;</span> + user.getName();</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>其中 User 是一个普通的 Java 类：</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">User</span> &#123;</span><br><span class="line">    <span class="keyword">private</span> String name;</span><br><span class="line">    </span><br><span class="line">    <span class="keyword">public</span> String <span class="title function_">getName</span><span class="params">()</span> &#123;</span><br><span class="line">        <span class="keyword">return</span> name;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">void</span> <span class="title function_">setName</span><span class="params">(String name)</span> &#123;</span><br><span class="line">        <span class="built_in">this</span>.name = name;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>测试 POST 请求：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">curl -X POST -H <span class="string">&quot;Content-Type: application/json&quot;</span> -d <span class="string">&#x27;&#123;&quot;name&quot;: &quot;Alice&quot;&#125;&#x27;</span> http://localhost:8080/api/user</span><br></pre></td></tr></table></figure>
+<p>返回：User created: Alice</p>
+<h3 id="（6）使用-RestTemplate-调用外部-API"><a href="#（6）使用-RestTemplate-调用外部-API" class="headerlink" title="（6）使用 RestTemplate 调用外部 API"></a>（6）使用 RestTemplate 调用外部 API</h3><p>Spring Web 还可以用来调用其他 REST API：</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> org.springframework.stereotype.Service;</span><br><span class="line"><span class="keyword">import</span> org.springframework.web.client.RestTemplate;</span><br><span class="line"></span><br><span class="line"><span class="meta">@Service</span></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">ApiService</span> &#123;</span><br><span class="line">    <span class="keyword">private</span> <span class="keyword">final</span> <span class="type">RestTemplate</span> <span class="variable">restTemplate</span> <span class="operator">=</span> <span class="keyword">new</span> <span class="title class_">RestTemplate</span>();</span><br><span class="line"></span><br><span class="line">    <span class="keyword">public</span> String <span class="title function_">getApiData</span><span class="params">()</span> &#123;</span><br><span class="line">        <span class="type">String</span> <span class="variable">url</span> <span class="operator">=</span> <span class="string">&quot;https://jsonplaceholder.typicode.com/todos/1&quot;</span>;</span><br><span class="line">        <span class="keyword">return</span> restTemplate.getForObject(url, String.class);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>Spring Web 是开发 <strong>Web 应用程序</strong>和 RESTful API 的核心框架之一。<br>它简化了开发流程，并且通过内嵌服务器（如 Tomcat）提供了开箱即用的功能。<br>无论是构建传统的 MVC 模式应用，还是开发现代的 RESTful API，Spring Web 都能提供强大的支持。</p>
+<p>通过使用 Spring Boot，开发者可以快速启动并运行一个 Web 应用，而不需要复杂的配置。<br>创建 REST API 变得更加简单，只需使用注解如 <code>@RestController</code>、<code>@GetMapping</code> 和 <code>@PostMapping</code>，<br>即可轻松处理各种 HTTP 请求。</p>
+<p>✅ 使用场景</p>
+<ul>
+<li>开发后端 API，提供 JSON 数据。</li>
+<li>创建前后端分离的 Web 应用。</li>
+<li>支持微服务架构；</li>
+</ul>
+<p>✅ 使用步骤：</p>
+<pre><code>1.引入 spring-boot-starter-web 依赖。
+2.创建 @SpringBootApplication 主类。
+3.使用 @RestController 定义 API。
+4.运行 Spring Boot 应用并测试 API。
+</code></pre>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://example.com/2025/03/02/spring-boot/" data-id="cm7rgegnj00002wekggmd67t1" class="article-share-link">Share</a>
+      
+      
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/REST-API/" rel="tag">REST API</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Spring-Boot/" rel="tag">Spring Boot</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Spring-Web/" rel="tag">Spring Web</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Web%E5%BC%80%E5%8F%91/" rel="tag">Web开发</a></li></ul>
+
+    </footer>
+  </div>
+  
+    
+<nav id="article-nav">
+  
+  
+    <a href="/2022/11/27/hello-world/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">Hello World</div>
+    </a>
+  
+</nav>
+
+  
+</article>
+
+</section>
+        
+          <aside id="sidebar">
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Categories</h3>
+    <div class="widget">
+      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/Spring-Boot/">Spring Boot</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Tags</h3>
+    <div class="widget">
+      <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/REST-API/" rel="tag">REST API</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Spring-Boot/" rel="tag">Spring Boot</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Spring-Web/" rel="tag">Spring Web</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Web%E5%BC%80%E5%8F%91/" rel="tag">Web开发</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Tag Cloud</h3>
+    <div class="widget tagcloud">
+      <a href="/tags/REST-API/" style="font-size: 10px;">REST API</a> <a href="/tags/Spring-Boot/" style="font-size: 10px;">Spring Boot</a> <a href="/tags/Spring-Web/" style="font-size: 10px;">Spring Web</a> <a href="/tags/Web%E5%BC%80%E5%8F%91/" style="font-size: 10px;">Web开发</a>
+    </div>
+  </div>
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Archives</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2025/03/">March 2025</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2022/11/">November 2022</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Recent Posts</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/2025/03/02/spring-boot/">Spring Boot Web 框架详解</a>
+          </li>
+        
+          <li>
+            <a href="/2022/11/27/hello-world/">Hello World</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      &copy; 2025 John Doe<br>
+      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer>
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/archives" class="mobile-nav-link">Archives</a>
+  
+</nav>
+    
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+
+  
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+
+  
+<script src="/fancybox/jquery.fancybox.pack.js"></script>
+
+
+
+
+<script src="/js/script.js"></script>
+
+
+
+
+  </div>
+</body>
+</html>
