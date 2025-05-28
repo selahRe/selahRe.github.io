@@ -1,0 +1,179 @@
+baseURL: "https://selahre.github.io"
+title: Xinyu's Blog
+paginate.pagerSize: 10
+theme: PaperMod
+languageCode: zh-cn # en-us
+
+enableInlineShortcodes: true # shortcode，类似于模板变量，可以在写 markdown 的时候便捷地插入，官方文档中有一个视频讲的很通俗
+hasCJKLanguage: true # 是否有 CJK 的字符
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+enableEmoji: true # 允许 emoji
+pygmentsUseClasses: true
+defaultContentLanguage: zh # 顶部首先展示的语言界面
+defaultContentLanguageInSubdir: false # 是否要在地址栏加上默认的语言代码
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+params:
+  # 搜索
+  fuseOpts:
+      isCaseSensitive: false # 是否大小写敏感
+      shouldSort: true # 是否排序
+      location: 0
+      distance: 1000
+      threshold: 0.4
+      minMatchCharLength: 0
+      # limit: 10 # refer: https://www.fusejs.io/api/methods.html#search
+      keys: ["title", "permalink", "summary", "content"]
+      includeMatches: true
+  env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  title: ExampleSite
+  description: "ExampleSite description"
+  keywords: [Blog, Portfolio, PaperMod]
+  author: Me
+  # author: ["Me", "You"] # multiple authors
+  images: ["<link or path of image for opengraph, twitter-cards>"]
+  DateFormat: "January 2, 2006"
+  defaultTheme: auto # dark, light
+  disableThemeToggle: false
+
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: false
+  ShowWordCount: true
+  ShowRssButtonInSectionTermList: true
+  UseHugoToc: true
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  comments: false
+  hidemeta: false
+  hideSummary: false
+  showtoc: false
+  tocopen: false
+  
+  assets:
+    # disableHLJS: true # to disable highlight.js
+    # disableFingerprinting: true
+    favicon: "<link / abs url>"
+    favicon16x16: "<link / abs url>"
+    favicon32x32: "<link / abs url>"
+    apple_touch_icon: "<link / abs url>"
+    safari_pinned_tab: "<link / abs url>"
+  
+  languages:
+    zh:
+      languageName: "Chinese"
+      # contentDir: content/english
+      weight: 1
+      taxonomies: # 分类系统
+        category: categories
+        tag: tags
+      # profileMode:
+      #   enabled: true
+      #   title: 独立之精神，自由之思想
+      #   subtitle: "👏🏼欢迎光临寒舍</br>👇联系方式"
+      #   imageUrl: "img/logo.gif"
+      #   imageTitle:
+      #   imageWidth: 150
+      #   imageHeight: 150
+      #   buttons:
+      #     - name: 👨🏻‍💻技术
+      #       url: posts/tech
+      #     - name: 📕阅读
+      #       url: posts/read
+      #     - name: 🏖生活
+      #       url: posts/life
+
+  label:
+    text: "Home"
+    icon: /apple-touch-icon.png
+    iconHeight: 35
+
+  # profile-mode
+  profileMode:
+    enabled: false # needs to be explicitly set
+    title: ExampleSite
+    subtitle: "This is subtitle"
+    imageUrl: "<img location>"
+    imageWidth: 120
+    imageHeight: 120
+    imageTitle: my image
+    buttons:
+      - name: Posts
+        url: posts
+      - name: Tags
+        url: tags
+  outputs:
+    home:
+        - HTML # 生成的静态页面
+        - RSS
+        - JSON # necessary for search, 这里的配置修改好之后，一定要重新生成一下
+  # home-info mode
+
+  homeInfoParams:
+    Title: "Hello🥳"
+    Content: Welcome to my blog
+
+  socialIcons:
+    - name: x
+      url: "https://x.com/"
+    - name: stackoverflow
+      url: "https://stackoverflow.com"
+    - name: github
+      url: "https://github.com/selahRe"
+
+
+  # for search
+  # https://fusejs.io/api/options.html
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    limit: 10 # refer: https://www.fusejs.io/api/methods.html#search
+    keys: ["title", "permalink", "summary", "content"]
+menu:
+  main:
+    - identifier: search
+      name: search
+      url: /search/
+      weight: 5
+    - identifier: archives
+      name: archives
+      url: /archives/
+      weight: 8
+    - identifier: about
+      name: about
+      url: /about/
+      weight: 9
+    - identifier: categories
+      name: categories
+      url: /categories/
+      weight: 10
+    - identifier: tags
+      name: tags
+      url: /tags/
+      weight: 20
+    # - identifier: example
+    #   name: example.org
+    #   url: https://example.org
+    #   weight: 30
+# Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
+pygmentsUseClasses: true
+markup:
+  highlight:
+    noClasses: false
+    # anchorLineNos: true
+    # codeFences: true
+    # guessSyntax: true
+    # lineNos: true
+    # style: monokai
