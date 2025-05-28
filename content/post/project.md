@@ -5,16 +5,11 @@ title: 'Project'
 lastmod: 2025-03-16T20:46:31+08:00
 
 categories:
-- category 1
-- category 2
-
-tags:
-- tag 1
-- tag 2
+- project
 
 url: "/about/"
-summary: "search"
-layout: "search" # necessary for search
+summary: "project"
+layout: "project" # necessary for search
 - database
 
 tags:
