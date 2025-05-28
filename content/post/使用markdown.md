@@ -1,3 +1,5 @@
+cd ~/study/blog
+hugo new --kind post content/post/newBlog.md
 ## 快捷键
 
 #### 窗口操作
@@ -40,7 +42,7 @@ export default withTable(Page)
 
 ---
 
-# 来一个牛逼的效果
+# 来一个效果
 
 <p class="fragment">Fade in</p>
 <p class="fragment fade-out">Fade out</p>
