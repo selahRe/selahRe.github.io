@@ -35,10 +35,7 @@ cover:
 ```java
 new CountDownLatch(50);
 ```
-<<<<<<< HEAD
 
-
-=======
 客户端 TCP socket建立连接
 ```C++
 void main(int argo, char *argvl])//需要传入服务器域名和端口号
@@ -93,7 +90,7 @@ close(connectionSocket);//End of while loop, loop back and wait for another clie
 }
 }
 ```
->>>>>>> recover-md-files
+
 
 
 

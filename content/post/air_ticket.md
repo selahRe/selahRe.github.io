@@ -62,8 +62,6 @@ cover:
 | 东方航空| 8.13 20h| 1 次|1W7 | 实际上达美在飞，NYU 中转 2h
 | 去哪儿| 8.13 17:00pm~0:38am 20h| 达拉斯 3h30m/13h35m 下午到 |7800 |好价，票少
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 #### NYU 中转
 默认 2 个托运箱子+200$JFK-RDU（https://www.expedia.com/lp/flights/jfk/rdu/new-york-to-raleigh ）+可能存在的住宿费+飞行2h，应该都有留学生优惠政策，但是学生没有行李额外额度
 | 航空公司 | Time | 中转 | 花费 |优劣 |
@@ -111,8 +109,3 @@ p.s. 如果有美国签证、绿卡等，从国内直飞韩国首尔，此前没
 可以考虑：
 ·  Wi-Fi:  https://piao.tips/airlines-free-wi-fi-introduction/
 
-
-=======
->>>>>>> parent of 9f01b8c (test)
-=======
->>>>>>> recover-md-files

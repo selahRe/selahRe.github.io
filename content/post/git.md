@@ -32,7 +32,6 @@ cover:
 ## 上传更改
 ```java
 git status //什么改变了
-<<<<<<< HEAD
 git add .
 git status //变绿，已添加到
 git commit -m “描述此次做了什么” 
@@ -88,16 +87,3 @@ git rebase -i 8876a66df1ea4a7e911c271b2bd3292ddfa1eca0 //修改指定commit即�
 reword xxxxx new commit
 ```
 
-
-
-
-
-
-
-
-
-
-
-
-
->>>>>>> recover-md-files
