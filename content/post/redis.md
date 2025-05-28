@@ -10,7 +10,7 @@ categories:
 tags:
 - redis
 
-url: "/about/"
+url: "/redis/"
 summary: "redis"
 layout: "redis" # necessary for search
 

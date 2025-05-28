@@ -1,4 +1,5 @@
 baseURL: "https://selahre.github.io"
+publishDir: "public"
 title: Xinyu's Blog
 paginate.pagerSize: 10
 theme: PaperMod

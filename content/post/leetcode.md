@@ -9,7 +9,7 @@ categories:
 tags:
 - leedcode
 
-url: "/about/"
+
 layout: "search" # necessary for search
 
 description: "java, leedcode" # 文章描述，与搜索优化相关

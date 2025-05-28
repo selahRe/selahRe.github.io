@@ -6,7 +6,7 @@ lastmod: 2025-03-16T20:46:31+08:00
 categories:
 - project
 
-url: "/about/"
+
 summary: "project"
 layout: "project" # necessary for search
 

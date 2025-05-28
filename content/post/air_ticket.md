@@ -10,7 +10,7 @@ categories:
 tags:
 - 性价比
 
-url: "/about/"
+
 layout: "机票" # necessary for search
 
 description: "机票性价比" # 文章描述，与搜索优化相关

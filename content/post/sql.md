@@ -10,7 +10,7 @@ categories:
 tags:
 - sql
 
-url: "/about/"
+url: "/sql/"
 summary: "sql"
 layout: "sql" # necessary for search
 
