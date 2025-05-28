@@ -5,7 +5,6 @@ title: 'Project'
 lastmod: 2025-03-16T20:46:31+08:00
 
 categories:
-<<<<<<< HEAD
 - category 1
 - category 2
 
@@ -16,13 +15,10 @@ tags:
 url: "/about/"
 summary: "search"
 layout: "search" # necessary for search
-=======
 - database
 
 tags:
 - project1
-
->>>>>>> recover-md-files
 
 description: "" # 文章描述，与搜索优化相关
 summary: "" # 文章简单描述，会展示在主页
@@ -44,8 +40,7 @@ cover:
     alt: ""
     relative: false
 ---
-<<<<<<< HEAD
-=======
+
 ## 打开项目
 http://localhost/
 监测监听端口
