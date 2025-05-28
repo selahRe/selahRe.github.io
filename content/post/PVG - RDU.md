@@ -39,6 +39,7 @@
 
 p.s. 阿联酋航空和万豪有活动 行程码+1k 里程，淘宝88vip 可获得万豪金卡
 https://your-world-rewards.marriott.com/?nck=-9999990&ck=2176558&lk=2000508386
+
 目前阿联酋航空学生机票提供三种票价类型供选择，高至低依次为：Flex Plus、Flex及Saver。预订不同票价类型的中国至美国单程经济舱学生机票，其改票、退票等细则不尽相同，但行李额度都是一致的（两件各23公斤的行李）。【阿联酋航空客服Makey】
 
 #### 其他 中转
@@ -53,16 +54,19 @@ https://your-world-rewards.marriott.com/?nck=-9999990&ck=2176558&lk=2000508386
 1k（应该可以）+5k+1k5=7300 三件行李额度
 | 4、大韩航空 PVG-LAX| 8.13 13:40~16:05 17h20m | 仁川3h40m 正好吃个饭|5350+1752|完美的中转时间，下飞机后9pm Southwest起飞去RDU正好第二天早上到
 5350+1300=6650+1752 pass
-| 5、Air Premia https://www.airpremia.com| 6.11 ICN-EWR 首尔-纽约 21:30~22:30 | 直飞| 3306r| 震惊🤯，有可能延误但是坐得舒服 https://piao.tips/8784f0892a/ ，可以从国内当天走，纽约到duke很近
+| 5、Air Premia https://www.airpremia.com| 6.11 ICN-EWR 首尔-纽约 21:30~22:30 | 直飞| 3306r| 震惊🤯，有可能延误但是坐得舒服 https://piao.tips/8784f0892a/ ，可以从国内当天走，纽约到duke很近，+260升座
 <font color="red">1000+3300+1300=5600 泪目了</font>
 
+![](/i/7252e020-80f6-468e-b615-0a939c93d6d4.jpg)![](/i/e57e5e5a-1d7d-409c-9646-4ad521c10f3d.jpg) ![](/i/cf41d47b-d1f8-4a80-aee9-96cf8df30a54.jpg)
 
 
 
 p.s. 如果有美国签证、绿卡等，从国内直飞韩国首尔，此前没有在韩不良滞留记录，可以在韩国免签30天
+
 民宿xhs推荐：성수, 당신의 여행지\nwith 성수부부. 猫狗双全但是2天起订而且太远了
-距地铁站2分钟! 便捷直达KSPO的 - 机场豪华巴士站(5分钟) 我错了市中心的都很远
+；距地铁站2分钟! 便捷直达KSPO的 - 机场豪华巴士站(5分钟) 我错了市中心的都很远；
 直接在airbnb上搜吧 
+
 可以考虑：
 ·  Wi-Fi:  https://piao.tips/airlines-free-wi-fi-introduction/
 
