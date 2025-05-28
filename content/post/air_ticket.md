@@ -12,8 +12,7 @@ tags:
 - 性价比
 
 url: "/about/"
-summary: "search"
-layout: "search" # necessary for search
+layout: "机票" # necessary for search
 
 description: "机票性价比" # 文章描述，与搜索优化相关
 summary: "PVG - RDU" # 文章简单描述，会展示在主页
