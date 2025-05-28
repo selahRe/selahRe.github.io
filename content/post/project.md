@@ -1,6 +1,5 @@
 ---
 date: '2025-03-16T20:46:31+08:00'
-draft: true
 title: 'Project'
 lastmod: 2025-03-16T20:46:31+08:00
 
@@ -10,7 +9,6 @@ categories:
 url: "/about/"
 summary: "project"
 layout: "project" # necessary for search
-- database
 
 tags:
 - project1

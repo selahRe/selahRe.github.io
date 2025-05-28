@@ -1,6 +1,5 @@
 ---
 date: '2025-03-04T14:58:32+08:00'
-draft: true
 title: 'Java_list'
 lastmod: 2025-03-04T14:58:32+08:00
 

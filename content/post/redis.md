@@ -1,6 +1,5 @@
 ---
 date: '2025-03-24T22:35:14+08:00'
-draft: true
 title: 'Redis'
 lastmod: 2025-03-24T22:35:14+08:00
 

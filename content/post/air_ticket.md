@@ -1,6 +1,5 @@
 ---
 date: '2025-05-28T14:51:59+08:00'
-draft: true
 title: 'Air_ticket'
 lastmod: 2025-05-28T14:51:59+08:00
 

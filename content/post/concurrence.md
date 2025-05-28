@@ -1,6 +1,5 @@
 ---
 date: '2025-03-05T02:10:17+08:00'
-draft: true
 title: 'Concurrence'
 lastmod: 2025-03-05T02:10:17+08:00
 
