@@ -54,8 +54,8 @@ https://your-world-rewards.marriott.com/?nck=-9999990&ck=2176558&lk=2000508386
 1k（应该可以）+5k+1k5=7300 三件行李额度
 | 4、大韩航空 PVG-LAX| 8.13 13:40~16:05 17h20m | 仁川3h40m 正好吃个饭|5350+1752|完美的中转时间，下飞机后9pm Southwest起飞去RDU正好第二天早上到
 5350+1300=6650+1752 pass
-| 5、Air Premia https://www.airpremia.com| 6.11 ICN-EWR 首尔-纽约 21:30~22:30 | 直飞| 3306r| 震惊🤯，有可能延误但是坐得舒服 https://piao.tips/8784f0892a/ ，可以从国内当天走，纽约到duke很近，+260升座
-<font color="red">1000+3300+1300=5600 泪目了</font>
+| 5、Air Premia https://www.airpremia.com| 7.11 ICN-EWR 首尔-纽约 21:30~22:30 | 直飞| 3306r| 震惊🤯，有可能延误但是坐得舒服 https://piao.tips/8784f0892a/ ，可以从国内当天走，纽约到duke很近，+260升座
+<font color="red">1000+3300+1300=5600 我真的有病 泪目了</font>
 
 ![](/i/7252e020-80f6-468e-b615-0a939c93d6d4.jpg)![](/i/e57e5e5a-1d7d-409c-9646-4ad521c10f3d.jpg) ![](/i/cf41d47b-d1f8-4a80-aee9-96cf8df30a54.jpg)
 

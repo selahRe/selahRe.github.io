@@ -90,11 +90,12 @@ https://your-world-rewards.marriott.com/?nck=-9999990&ck=2176558&lk=2000508386
 | 3、国泰| 8.12/13 广州-洛杉矶LAX | 8.13 14:10~17:05 南沙岗坐船到香港| 3h香港| 4816|学生专享3件行李托运额度
 1k（应该可以）+5k+1k5=7300 三件行李额度
 | 4、大韩航空 PVG-LAX| 8.13 13:40~16:05 17h20m | 仁川3h40m 正好吃个饭|5350+1752|完美的中转时间，下飞机后9pm Southwest起飞去RDU正好第二天早上到
-5350+1300=6650+1752 pass
-| 5、Air Premia https://www.airpremia.com| 8.11 ICN-EWR 首尔-纽约 21:30~22:30 | 直飞| 8191r| 我神智不清了，有可能延误但是坐得舒服 https://piao.tips/8784f0892a/ ，可以从国内当天走，纽约到duke很近，+260升座
-<span style="color:red"> 1000+8191+1300 </span>
-
-
+5350+1300=6650+1752税费 pass
+| 5、Air Premia https://www.airpremia.com| 8.14 ICN-LAX 首尔-洛杉矶21:45~8:20 | 直飞| 4422r| 有可能延误但是坐得舒服 https://piao.tips/8784f0892a/ ，可以从国内当天走，纽约到duke很近，+260升座
+1000+4422+1300 = 6722r 可以的
+|6、美联航https://www.united.com/en/us/book-flight/united-reservations
+|PVG-EWR| 9w+里程换机票 1w->960¥| 不划算
+![](content/i/870301c3-f785-4a09-b193-6ec880337e27.jpg)
 
 
 p.s. 如果有美国签证、绿卡等，从国内直飞韩国首尔，此前没有在韩不良滞留记录，可以在韩国免签30天
