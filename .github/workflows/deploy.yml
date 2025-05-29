@@ -1,48 +1,37 @@
-name: Deploy Hugo site to Pages
+name: deploy
 
+# 代码提交到main分支时触发github action
 on:
   push:
-    branches: [main] # 或者 master，根据你用的分支
-  workflow_dispatch:
-
-permissions:
-  contents: read
-  pages: write
-  id-token: write
-
-concurrency:
-  group: "pages"
-  cancel-in-progress: false
+    branches:
+      - main
 
 jobs:
-  build:
-    runs-on: ubuntu-latest
-
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-
-      - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v2
-        with:
-          hugo-version: 'latest'
-
-      - name: Build
-        run: hugo --minify
-
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v1
-        with:
-          path: ./public
-
   deploy:
-    needs: build
-    runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest                                      # 在什么环境执行
+    steps:                                                      # 步骤
+        - name: Checkout                                        # 第一步 Checkout
+          uses: actions/checkout@v4
+          with:
+              fetch-depth: 0
 
-    steps:
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v1
+        - name: Update Submodule                                # 第二步 更新子模块
+          run: git submodule update --init --recursive
+
+        - name: Setup Hugo                                      # 第三步 Hugo 配置
+          uses: peaceiris/actions-hugo@v3
+          with:
+              hugo-version: '0.145.0'                           # 使用的 Hugo 版本
+              extended: true                                    # 是否使用 extended 版本
+
+        - name: Build Web                                       # 第四步 构建
+          run: hugo -E                                          # 构建命令
+
+        - name: Deploy Web                                      # 第四步 发布
+          uses: peaceiris/actions-gh-pages@v4
+          with:
+              PERSONAL_TOKEN: ${{ secrets.MYBLOG }}
+              EXTERNAL_REPOSITORY: selahRe/selahRe.github.io
+              PUBLISH_BRANCH: gh-pages
+              PUBLISH_DIR: ./public
+              commit_message: auto deploy
