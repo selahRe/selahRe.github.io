@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Tags on Xinyu&#39;s Blog</title>
+    <link>https://selahre.github.io/tags/</link>
+    <description>Recent content in Tags on Xinyu&#39;s Blog</description>
+    <image>
+      <title>Xinyu&#39;s Blog</title>
+      <url>https://selahre.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://selahre.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- 0.145.0</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Wed, 28 May 2025 14:51:59 +0800</lastBuildDate>
+    <atom:link href="https://selahre.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>性价比</title>
+      <link>https://selahre.github.io/tags/%E6%80%A7%E4%BB%B7%E6%AF%94/</link>
+      <pubDate>Wed, 28 May 2025 14:51:59 +0800</pubDate>
+      <guid>https://selahre.github.io/tags/%E6%80%A7%E4%BB%B7%E6%AF%94/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Redis</title>
+      <link>https://selahre.github.io/tags/redis/</link>
+      <pubDate>Mon, 24 Mar 2025 22:35:14 +0800</pubDate>
+      <guid>https://selahre.github.io/tags/redis/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Java</title>
+      <link>https://selahre.github.io/tags/java/</link>
+      <pubDate>Fri, 21 Mar 2025 06:01:06 +0800</pubDate>
+      <guid>https://selahre.github.io/tags/java/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Network</title>
+      <link>https://selahre.github.io/tags/network/</link>
+      <pubDate>Fri, 21 Mar 2025 06:01:06 +0800</pubDate>
+      <guid>https://selahre.github.io/tags/network/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Sql</title>
+      <link>https://selahre.github.io/tags/sql/</link>
+      <pubDate>Thu, 20 Mar 2025 09:13:23 +0800</pubDate>
+      <guid>https://selahre.github.io/tags/sql/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Project1</title>
+      <link>https://selahre.github.io/tags/project1/</link>
+      <pubDate>Sun, 16 Mar 2025 20:46:31 +0800</pubDate>
+      <guid>https://selahre.github.io/tags/project1/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Git</title>
+      <link>https://selahre.github.io/tags/git/</link>
+      <pubDate>Thu, 13 Mar 2025 16:16:58 +0800</pubDate>
+      <guid>https://selahre.github.io/tags/git/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>八股</title>
+      <link>https://selahre.github.io/tags/%E5%85%AB%E8%82%A1/</link>
+      <pubDate>Wed, 05 Mar 2025 02:10:17 +0800</pubDate>
+      <guid>https://selahre.github.io/tags/%E5%85%AB%E8%82%A1/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Leedcode</title>
+      <link>https://selahre.github.io/tags/leedcode/</link>
+      <pubDate>Tue, 04 Mar 2025 15:45:56 +0800</pubDate>
+      <guid>https://selahre.github.io/tags/leedcode/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>REST API</title>
+      <link>https://selahre.github.io/tags/rest-api/</link>
+      <pubDate>Sun, 02 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://selahre.github.io/tags/rest-api/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Spring Boot</title>
+      <link>https://selahre.github.io/tags/spring-boot/</link>
+      <pubDate>Sun, 02 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://selahre.github.io/tags/spring-boot/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Spring Web</title>
+      <link>https://selahre.github.io/tags/spring-web/</link>
+      <pubDate>Sun, 02 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://selahre.github.io/tags/spring-web/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Web开发</title>
+      <link>https://selahre.github.io/tags/web%E5%BC%80%E5%8F%91/</link>
+      <pubDate>Sun, 02 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://selahre.github.io/tags/web%E5%BC%80%E5%8F%91/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
