@@ -43,7 +43,6 @@ cover:
 托运行李 1× 23kg (50lb)
 
 #### 如果两件托运行李+100$左右
-
 | 航空公司 | Time | 中转 | 花费 |优劣 |
 | ------- | ---------- | ------- | ------ | ------ |
 | 达美 delta | <30h | 1 个| ¥9,377 /¥10,507|8.11 已有同班 4 人坐同一班,9k 无里程积分，不可以提前选座，最后上飞机/ 1w 空间没大多少https://www.delta.com/us/en/baggage/overview
@@ -85,17 +84,17 @@ https://your-world-rewards.marriott.com/?nck=-9999990&ck=2176558&lk=2000508386
 | 1、达美|PVG-LAX 8.13 17:30～20:29| 18h |西雅图中转3h20m | 去哪儿 4500| 好价，要买行李额度
 4500+720+250(35$)+1300=6770 
 | 2、韩国首尔仁川ICN-LAX https://www.airpremia.com | 8.14 12:45~8:20 11h35m|直飞无中转| 4438r | 令人震惊的价格，有美签可以直接中转
-| Southwest Airline https://www.southwest.com| 8.14 1:25pm ~10:50pm 6h 25m |1 stop|$180, 2 checked bags included (50 lbs each| 有点晚，但是时间挺好的，正好衔接上，Boeing 737-800，必须<span style="color:green"> 北美5.28之前买</span>要不然没有2件行李的额度了
+| Southwest Airline https://www.southwest.com| 8.14 1:25pm ~10:50pm 6h 25m |1 stop|$180, 2 checked bags included (50 lbs each| 有点晚，但是时间挺好的，正好衔接上，Boeing 737-800，必须<font color="green">北美5.28之前买</font>要不然没有2件行李的额度了
 一共是 1k(随时随地可以出发)+4k4+1k3+105(存放行李)+住宿300(2人 也可以免费)=7105 可以在韩国玩
 | 3、国泰| 8.12/13 广州-洛杉矶LAX | 8.13 14:10~17:05 南沙岗坐船到香港| 3h香港| 4816|学生专享3件行李托运额度
 1k（应该可以）+5k+1k5=7300 三件行李额度
 | 4、大韩航空 PVG-LAX| 8.13 13:40~16:05 17h20m | 仁川3h40m 正好吃个饭|5350+1752|完美的中转时间，下飞机后9pm Southwest起飞去RDU正好第二天早上到
-5350+1300=6650+1752税费 pass
-| 5、Air Premia https://www.airpremia.com| 8.14 ICN-LAX 首尔-洛杉矶21:45~8:20 | 直飞| 4422r| 有可能延误但是坐得舒服 https://piao.tips/8784f0892a/ ，可以从国内当天走，纽约到duke很近，+260升座
-1000+4422+1300 = 6722r 可以的
-|6、美联航https://www.united.com/en/us/book-flight/united-reservations
-|PVG-EWR| 9w+里程换机票 1w->960¥| 不划算
-![](content/i/870301c3-f785-4a09-b193-6ec880337e27.jpg)
+5350+1300=6650+1752 pass
+| 5、Air Premia https://www.airpremia.com| 7.11 ICN-EWR 首尔-纽约 21:30~22:30 | 直飞| 3306r| 震惊🤯，有可能延误但是坐得舒服 https://piao.tips/8784f0892a/ ，可以从国内当天走，纽约到duke很近，+260升座
+<font color="red">1000+3300+1300=5600 我真的有病 泪目了</font>
+
+![](/i/7252e020-80f6-468e-b615-0a939c93d6d4.jpg)![](/i/e57e5e5a-1d7d-409c-9646-4ad521c10f3d.jpg) ![](/i/cf41d47b-d1f8-4a80-aee9-96cf8df30a54.jpg)
+
 
 
 p.s. 如果有美国签证、绿卡等，从国内直飞韩国首尔，此前没有在韩不良滞留记录，可以在韩国免签30天
@@ -106,4 +105,3 @@ p.s. 如果有美国签证、绿卡等，从国内直飞韩国首尔，此前没
 
 可以考虑：
 ·  Wi-Fi:  https://piao.tips/airlines-free-wi-fi-introduction/
-
