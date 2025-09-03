@@ -13,5 +13,12 @@
     <language>zh-cn</language>
     <lastBuildDate>Wed, 03 Sep 2025 16:03:40 -0400</lastBuildDate>
     <atom:link href="https://selahre.github.io/tags/%E7%AE%97%E6%B3%95/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Arithmetic</title>
+      <link>https://selahre.github.io/post/arithmetic/</link>
+      <pubDate>Wed, 03 Sep 2025 16:03:40 -0400</pubDate>
+      <guid>https://selahre.github.io/post/arithmetic/</guid>
+      <description>算法</description>
+    </item>
   </channel>
 </rss>
